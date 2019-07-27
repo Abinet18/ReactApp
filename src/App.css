@@ -57,3 +57,10 @@
       background-color: white;
       border:none;
   }
+
+  @media(max-width:500px) {
+      .container {
+          flex-direction: column;
+      }
+  }
+ 
