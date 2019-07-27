@@ -15,4 +15,4 @@ class Kanban extends React.Component {
     }
 }
 
-module.exports = Kanban;
+module.exports= Kanban;

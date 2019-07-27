@@ -25,4 +25,4 @@ class KanbanColumn extends React.Component {
 
 }
 
-module.exports = KanbanColumn;
+module.exports= KanbanColumn;
