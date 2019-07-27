@@ -1,6 +1,7 @@
 const React = require('react');
 
-class KanbanCard extends React.Component{
+class KanbanCard extends React.Component
+{
     render() {
         const { card } = this.props;
         return (
