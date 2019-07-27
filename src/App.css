@@ -58,9 +58,12 @@
       border:none;
   }
 
-  @media(max-width:500px) {
+  @media(max-width:800px) {
       .container {
-          flex-direction: column;
+        flex-wrap:wrap;
+      }
+      .container .column{
+         flex-basis: 300px;
       }
   }
  
