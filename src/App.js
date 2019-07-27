@@ -1,6 +1,6 @@
 import './App.css';
-const React = require('react');
-const Kanban = require('./kanban/Kanban');
+import React from 'react';
+import Kanban from './kanban/Kanban';
 
 
 class App extends React.Component {

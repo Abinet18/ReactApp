@@ -1,5 +1,5 @@
-const React = require('react');
-const KanbanCard = require('./KanbanCard');
+import React from 'react';
+import KanbanCard from './KanbanCard';
 class KanbanColumn extends React.Component {
     render() {
         const { column, cards } = this.props;
@@ -24,5 +24,4 @@ class KanbanColumn extends React.Component {
     }
 
 }
-
-module.exports= KanbanColumn;
+export default KanbanColumn;

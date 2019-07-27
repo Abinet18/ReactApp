@@ -31,5 +31,5 @@ class KanbanCard extends React.Component {
     }
 }
 
-module.exports = KanbanCard;
+export default KanbanCard;
 
